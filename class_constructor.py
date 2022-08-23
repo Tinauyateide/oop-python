@@ -11,7 +11,7 @@ class Student():
 
 #creating a class that inherits from our students class
 class GroupLeader(Student):
-# intializing the class to take an argument of list os student
+# initializing the class to take an argument of list os student
     def __init__(self, first, last, students = []):
         super().__init__(first, last)
         self.students = students
@@ -21,7 +21,7 @@ class GroupLeader(Student):
         if student not in self.students:
             self.students.append(student)
 
-# Definging a method that removes students from the list of students under the group leader
+# Defining a method that removes students from the list of students under the group leader
     def remove_student(self, student):
         if student in self.students:
             self.students.remove(student) 
