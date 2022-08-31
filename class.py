@@ -37,6 +37,6 @@ cus_1 = BankAccount('Tina uyateide', number=2958763412)
 cus_2 = BankAccount('Mary James', number=2967845623)
 
 print(cus_1.fullname())
-cus_1.deposit(15000)
-cus_1.withdraw(10000)
+cus_1.deposit(50000)
+cus_1.withdraw(60000)
 cus_1.availableBalance()
